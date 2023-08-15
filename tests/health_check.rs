@@ -1,4 +1,4 @@
-use zero2prod::spawn_app;
+use zero2prod::startup::spawn_app;
 
 #[tokio::test]
 async fn health_check_works() {
