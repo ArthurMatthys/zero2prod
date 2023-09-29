@@ -163,3 +163,4 @@ jobs:
         run: chmod +x ./scripts/init_db.sh; SKIP_DOCKER=true ./scripts/init_db.sh
       - name: Generate code coverage
         run: cargo install cargo-tarpaulin && cargo tarpaulin --verbose --workspace
+
